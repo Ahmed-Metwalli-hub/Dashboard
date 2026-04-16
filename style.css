@@ -1,0 +1,58 @@
+:root{
+    --bg-body: #fff;
+    --body-color: #000;
+    --sec-bg: #fff;
+    
+}
+.da-rk{
+    --bg-body: #222;
+    --body-color: #fff;
+    --sec-bg: #555;
+    
+}
+body{
+    background: var(--bg-body);
+    color: var(--body-color);
+}
+a{
+    text-decoration: none;
+    color: var(--body-color);
+    transition: 0.4s;
+}
+.left-ancors{
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+.left-ancors:hover a , a:hover{
+    color: #198754;
+
+}
+.left-ancors:hover , a:hover{
+    color: #198754;
+    transform: translateX(10px);
+}
+.drop-down{
+    display: none;
+}
+i{
+    cursor: pointer;
+}
+.right-nav > span > i{
+    transition: 0.4s;
+    cursor: pointer;
+}
+.right-nav > span > i:hover{
+    color: #198754;
+}
+.bg-secondary{
+    display: none;
+}
+.fa-sun{
+    display: none;
+}
+canvas{
+    background:  var(--sec-bg);
+    color: var(--body-color) !important;  
+
+}
